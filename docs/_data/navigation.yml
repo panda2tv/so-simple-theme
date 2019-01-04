@@ -1,12 +1,12 @@
 # Site navigation links
 
-- title: 博客
+- title: POSTS
   url: /posts/
-- title: 分类
+- title: CATAGORIES
   url: /categories/
-- title: 标签
+- title: TAGS
   url: /tags/
-#- title: RECIPES
-#  url: /recipes/
-- title: 搜索
+- title: RECIPES
+  url: /recipes/
+- title: SEARCH
   url: /search/
