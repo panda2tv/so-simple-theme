@@ -53,6 +53,8 @@ server{
 }
 
 ```
-改好设置重启nginx服务
-nginx -s reload
+改好设置重启nginx服务  
+```
+nginx -s reload  
+```
 nginx轻量好用功能强，用来替换了Apache
