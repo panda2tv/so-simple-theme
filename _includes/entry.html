@@ -24,12 +24,10 @@
   </header>
   {% unless page.show_excerpts == false %}
     <div class="entry-excerpt p-summary">
-      {% if entry.excerpt %}
-        {{ entry.excerpt | markdownify }}
+      {{ post.content | strip_html | truncatewords:75 }}
         <div class="more-link">
           <a href="{{ entry.url | relative_url }}">{{ site.data.text[site.locale].read_more | default: 'Read More' }}</a>
         </div>
-      {% endif %}
     </div>
   {% endunless %}
   {% if site.read_time or entry.date and page.layout != 'collection' %}
