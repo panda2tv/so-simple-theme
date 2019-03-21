@@ -1,5 +1,5 @@
 ---
-title: "2019-03-09-在jekyll中正确的显示blog的摘要"
+title: "在jekyll中正确的显示blog的摘要"
 last_modified_at: 2019-03-09
 ---
 Jekyll文档说显示摘要可以用 post.excerpt，默认是显示第一段，不过我试过他总会显示全部内容，google了一下，如果要显示摘要，用下面语句  
