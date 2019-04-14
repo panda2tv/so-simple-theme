@@ -21,7 +21,19 @@
     if ( 'querySelector' in document && 'addEventListener' in window ) {
       document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
     }
+    
   </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134905996-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-134905996-2');
+  </script>
+
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% if site.google_fonts %}
